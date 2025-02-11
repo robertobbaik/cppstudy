@@ -59,7 +59,6 @@ public:
 int main()
 {
     Truck *truck = new Truck("yellow", 10, 10);
-
     cout << truck->getColor() << endl;
     truck->loadCargo();
     truck->move();
@@ -67,5 +66,5 @@ int main()
     Bicycle *bicycle = new Bicycle("black", 10, false);
     cout << bicycle->getColor() << endl;
     bicycle->ringBell();
-    bicycle->move();
+    bicycle->move();    
 }
