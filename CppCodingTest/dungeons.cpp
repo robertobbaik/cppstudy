@@ -34,7 +34,7 @@ int solution(int k, vector<vector<int>> dungeons)
     } while (next_permutation(temp.begin(), temp.end()));
 
     for (int i = 0; i < v.size(); i++)
-    {
+    { 
         int count = 0;
         int energy = k;
         for (int j = 0; j < v[i].size(); ++j)

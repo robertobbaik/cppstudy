@@ -1,4 +1,7 @@
-    // for (int num : c)
+    // for (int i = 0; i < row; i++)
     // {
-    //     cout << num << endl;
+    //     if (board[i][col] == 1)
+    //     {
+    //         return false;
+    //     }   
     // }
