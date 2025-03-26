@@ -64,7 +64,9 @@ int solution(string numbers)
 
 int main(void)
 {
-    int a = solution("171");
+    int a = solution("17");
+
+    cout << a << endl;
 
     return 0;
 }

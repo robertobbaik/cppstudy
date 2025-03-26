@@ -41,7 +41,7 @@ void backtracking(int index)
             }
             cout << endl;
         }
-    
+
         return;
     }
 
@@ -71,6 +71,8 @@ int main(void)
     }
 
     backtracking(0);
+
+    cout << 1 / 3 << endl;
 
     return 0;
 }
